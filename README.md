@@ -26,12 +26,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+   The game chooses a random number between a given interval, as the player you must guess the right number given the hints to "go lower" or "go higher" from previous attempts
 - [ ] Detail which bugs you found.
+   I found that if an odd number was inputted then the player would always be told to "go lower" because odd numbers were automatically converted to string type.
 - [ ] Explain what fixes you applied.
+   I fixed the bug that caused the automatic conversion to strings. I also fixed the "go lower", "go higher" return statements as they were switched.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [] [Insert a screenshot of your fixed, winning game here]
 
 ## 🚀 Stretch Features
 
